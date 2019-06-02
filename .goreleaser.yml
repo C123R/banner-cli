@@ -24,6 +24,13 @@ changelog:
     exclude:
     - '^docs:'
     - '^test:'
+blob:
+-
+  provider: gs
+  bucket: goreleaser-bucket
+-
+  provider: s3
+  bucket: goreleaser-bucket
 
 release:
   disable: true
